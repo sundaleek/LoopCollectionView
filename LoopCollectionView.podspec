@@ -5,7 +5,7 @@ s.ios.deployment_target = '11.0'
 s.name = "LoopCollectionView"
 s.summary = "Infinite Collection View"
 s.requires_arc = true
-s.version = "0.1.0"
+s.version = "0.1.2"
 s.license = { :type => "Apache", :file => "LICENSE" }
 s.author = { "David Ozmanyan" => "dmozmanyan@gmail.com" }
 s.homepage = "https://github.com/sundaleek/LoopCollectionView"
