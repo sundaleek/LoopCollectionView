@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class LoopCollectionView: UICollectionView, UICollectionViewDelegate {
 
     var onDidEndDisplaying: ((IndexPath) -> Void)?
