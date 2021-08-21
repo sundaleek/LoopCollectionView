@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B548F46E26D16E7100C61808 /* LoopCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = B548F46C26D16E7100C61808 /* LoopCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B548F47526D170D600C61808 /* LoopCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548F47426D170D600C61808 /* LoopCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B548F46926D16E7100C61808 /* LoopCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoopCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B548F46C26D16E7100C61808 /* LoopCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopCollectionView.h; sourceTree = "<group>"; };
 		B548F46D26D16E7100C61808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B548F47426D170D600C61808 /* LoopCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoopCollectionView.swift; path = ../../LoopCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				B548F46C26D16E7100C61808 /* LoopCollectionView.h */,
 				B548F46D26D16E7100C61808 /* Info.plist */,
+				B548F47426D170D600C61808 /* LoopCollectionView.swift */,
 			);
 			path = LoopCollectionView;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					B548F46826D16E7100C61808 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B548F47526D170D600C61808 /* LoopCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		B548F47226D16E7100C61808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9APHXGSU3J;
@@ -279,6 +285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +294,7 @@
 		B548F47326D16E7100C61808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9APHXGSU3J;
