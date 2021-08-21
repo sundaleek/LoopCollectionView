@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
 s.platform = :ios
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '14.1'
 s.name = "LoopCollectionView"
 s.summary = "Infinite Collection View"
 s.requires_arc = true
-s.version = "0.1.2"
+s.version = "0.1.3"
 s.license = { :type => "Apache", :file => "LICENSE" }
 s.author = { "David Ozmanyan" => "dmozmanyan@gmail.com" }
 s.homepage = "https://github.com/sundaleek/LoopCollectionView"
